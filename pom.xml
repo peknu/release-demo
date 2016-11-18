@@ -13,6 +13,23 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <scm>
+        <developerConnection>scm:git:https://github.com/peknu/release-demo.git</developerConnection>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>local.nexus.repo</id>
+            <name>Local Docker release Repository</name>
+            <url>http://192.168.99.100:32768/repository/maven-releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>local.nexus.repo</id>
+            <name>Local Docker snapshot Repository</name>
+            <url>http://192.168.99.100:32768/repository/maven-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>

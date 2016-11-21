@@ -1,0 +1,10 @@
+**.iml
+.idea/
+sub1/target/
+sub2/target/
+Would skip repository target/checkout
+target/classes
+target/generated-sources
+target/maven-archiver
+target/maven-status
+target/release-demo-1.1.jar

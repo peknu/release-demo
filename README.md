@@ -8,3 +8,6 @@ Add the following section to the maven settings.xml file:
 To perfor a release:
 1) mvn --batch-mode release:prepare
 2) mvn release:perform
+
+
+autoVersionSubmodules

@@ -17,6 +17,11 @@
       <tag>HEAD</tag>
   </scm>
 
+    <modules>
+        <module>sub1</module>
+        <module>sub2</module>
+    </modules>
+
     <distributionManagement>
         <repository>
             <id>local.nexus.repo</id>

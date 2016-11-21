@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>se.sbab.demo</groupId>
-        <artifactId>release-demo-sub1</artifactId>
+        <artifactId>release-demo</artifactId>
         <version>1.2-SNAPSHOT</version>
     </parent>
     <artifactId>release-demo-sub1</artifactId>
     <packaging>jar</packaging>
-    <name>release-demo-sub2</name>
+    <name>release-demo-sub1</name>
 </project>
